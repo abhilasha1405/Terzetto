@@ -1,1 +1,65 @@
-_navbar.scss
+.nav-container {
+
+  padding: 0;
+padding-top: 100px;
+
+background-color: red;
+
+}
+
+.navbar {
+
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  transition: 5s;
+
+}
+
+.navbar-brand img {
+
+  background-color: transparent;
+  width: 200px;
+  margin-left: 2%;
+  margin-top: 0%
+
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav-items {
+
+  display: inline-block;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 8%;
+
+
+
+.nav-link {
+
+color: black;
+font-family: Lucidatypewriter, monospace;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+
+
+
+}
+}
+
+
+
+
+
+
+
