@@ -6,9 +6,9 @@ class PagesController < ApplicationController
   def about
   end
 
-  def contact
+  def capabilities
   end
 
-  def capabilities
+  def contact
   end
 end
