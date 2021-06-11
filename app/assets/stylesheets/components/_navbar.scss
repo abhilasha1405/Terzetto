@@ -67,7 +67,7 @@ a {
   transition: 0.1s border linear;
 }
 .links li a:hover {
-  border-bottom: black 1px;
+  border-bottom: #121212 1px;
 }
 .social-icons {
   display: flex;
@@ -78,7 +78,7 @@ a {
 .show-icons {
   height: 10vh;
   align-items: center;
-  border-top: 2px solid black;
+  border-top: 2px solid #121212;
   overflow: visible;
 }
 .social-icons li {
@@ -90,13 +90,13 @@ a {
 
 .social-icons li a {
   padding: 0.4em;
-  color: black;
+  color: #121212;
   transition: all 0.5s ease;
   border-radius: 50%;
 }
 
 .social-icons li a:hover {
-  background: black;
+  background: #121212;
   color: white;
 }
 
