@@ -1,24 +1,53 @@
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<nav id="navbar" class="">
-  <div class="nav-wrapper">
-    <!-- Navbar Logo -->
-    <div class="logo">
-      <!-- Logo Placeholder for Inlustration -->
-     <%= link_to root_path, class: "navbar-brand" do %>
-          <%= image_tag "logoo.png", width: 200 %>
-        <% end %>
-    </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
-    <!-- Navbar Links -->
-    <ul id="menu">
-      <li>  <%= link_to "CONTACT", contact_path %></li><!--
-   --><li><%= link_to "CAPABILITIES", capabilities_path %></li><!--
-   --><li><%= link_to "ABOUT", about_path %></li><!--
---><li><%= link_to "HOME", root_path %></li><!--
+<nav>
+  <div class="nav-center">
+    <!-- nav header -->
+    <div class="nav-header">
+      <%= image_tag "logoo.png" %>
+      <button class="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <!-- links -->
+    <ul class="links">
+      <li>
+          <%= link_to "HOME", root_path %>
+      </li>
+      <li>
+          <%= link_to "ABOUT", about_path %>
+      </li>
+      <li>
+     <%= link_to "CAPABILITIES", capabilities_path %>
+      </li>
+      <li>
+       <%= link_to "CONTACT", contact_path %>
+      </li>
+    </ul>
+    <!-- social media -->
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.twitter.com">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.twitter.com">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
 
     </ul>
   </div>
 </nav>
+
+
 
 
 
