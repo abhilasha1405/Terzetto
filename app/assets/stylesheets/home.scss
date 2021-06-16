@@ -106,7 +106,7 @@ section.titles-section {
 /* === Servicios === */
 section.services-section {
   min-height: 350px;
-  background-color: $background-white;
+  background-color: gray;
 
   .services-wrapper {
     min-height: 350px;
@@ -133,6 +133,7 @@ section.services-section {
         text-align: justify;
         text-justify: inter-character;
         line-height: 1.5em;
+        color: #000000;
       }
 
       .service-icon-circle {
@@ -525,6 +526,7 @@ footer.footer-section {
 
   section.portfolio-section {
     min-height: 300px;
+
 
     .portfolio-wrapper {
       padding: 30px;
