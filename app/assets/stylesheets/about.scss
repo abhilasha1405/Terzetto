@@ -17,6 +17,20 @@
   display: table;
   clear: both;
 }
+ h2{
+
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-right: 20%;
+ }
+p{
+
+  font-family: 'Lato', sans-serif;
+  line-height: 200%;
+   margin-left: -40px;
+   margin-right: 10%;
+
+}
 
 .team-text {
 
@@ -25,13 +39,16 @@
   font-family: quicksand;
   color: #121212;
   padding-bottom: 20px;
+ margin-left: 50px;
 }
 
 .team-img {
-width: 50%;
-  padding: 10px;
-  height: 400px;
+   width: 55%;
+  padding: 28px;
+
   border: solid;
+
+
 
 }
 
